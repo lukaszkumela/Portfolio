@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Porftolio website"/>
+    <link rel="shortcut icon" href="/frame-2.ico" type="image/x-icon"/>
+    <link rel="icon" href="/frame-2.ico" type="image/x-icon"/>       
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Łukasz Kumela - developer portfolio</title>
+</head>
+<body>
+    <div class="preloader flex">
+        <div class="preloader__spinner">
+            <div class="preloader__rect1"></div>
+            <div class="preloader__rect2"></div>
+            <div class="preloader__rect3"></div>
+            <div class="preloader__rect4"></div>
+            <div class="preloader__rect5"></div>
+        </div>
+        <h3 class="preloader__text">Page loading</h3>
+    </div>
+        <nav class="nav flex">
+            <a class="nav__logo" href="#">Łukasz Kumela</a>
+            <ul class="nav__links flex">
+                <li class="nav__item flex">
+                    <a class="nav__link" href="#about">
+                        <span class="english">about</span>
+                        <span class="polish">o mnie</span>
+                    </a>
+                </li>
+                <li class="nav__item flex">
+                    <a class="nav__link" href="#projects">
+                        <span class="english">work</span>
+                        <span class="polish">projekty</span> 
+                    </a>
+                </li>
+                <li class="nav__item flex">
+                    <a class="nav__link" href="https://lukaszkumela.github.io/CV/" target="_blank">
+                        <span class="english">CV</span>
+                        <span class="polish">CV</span> 
+                    </a>
+                </li>
+                <li class="nav__item flex">
+                    <div class="nav__flag-container flex"><img class="nav__flag" data-lang="english" src="images/ENG1.svg" alt="british flag"/></div>
+                    <div class="nav__flag-container flex"><img class="nav__flag" data-lang="polish" src="images/PL1.svg" alt="polish flag"/></div>
+                </li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <span class="hamburger__span" id="span1"></span>
+            <span class="hamburger__span" id="span2"></span>
+            <span class="hamburger__span" id="span3"></span>
+        </div>
+        <div class="mobile flex">
+            <ul class="mobile__menu flex">
+                <li class="mobile__item flex">
+                    <a class="mobile__link" href="#">
+                        <span class="english">home</span>
+                        <span class="polish">start</span> 
+                    </a>
+                </li>
+                <li class="mobile__item flex">
+                    <a class="mobile__link" href="#about">
+                        <span class="english">about</span>
+                        <span class="polish">o mnie</span>
+                    </a>
+                </li>
+                <li class="mobile__item flex">
+                    <a class="mobile__link" href="#projects">
+                        <span class="english">work</span>
+                        <span class="polish">projekty</span> 
+                    </a>
+                </li>
+                <li class="mobile__item flex">
+                    <a class="mobile__link" href="https://lukaszkumela.github.io/CV/" target="_blank">
+                        <span class="english">CV</span>
+                        <span class="polish">CV</span> 
+                    </a>
+                </li>
+                <li class="mobile__item flex">
+                    <div class="lang-toggle flex">
+                        <div class="lang-toggle__switch"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <section class="section main">
+            <div class="main__showcase">
+                <h1 class="main__header">Łukasz Kumela</h1>
+                <h2 class="main__subheader">web developer</h2>
+                <h1 class="main__header main__header--mobile">Łukasz Kumela</h1>
+                <h2 class="main__subheader main__subheader--mobile">web developer</h2>
+                <img src="images/splashscreen.png" alt="screen" class="main__img"/>
+                <img src="images/splashmobile.png" alt="screen" class="main__img main__img--mobile"/>
+                <video class="main__video" muted autoplay preload="auto">
+                    <source src="">
+                </video>
+                <div class="main__blackscreen"></div>
+                <div class="main__vid-steering-grid">
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                    <div class="main__grid-item"></div>
+                </div>
+                <div class="main__vid-switch flex">
+                    <div class="main__switch-circle main__switch-circle--blue-shadow"></div>
+                </div>
+            </div>
+            <a href="#projects" class="main__button">
+                <span class="english">View my work</span>
+                <span class="polish">Moje projekty</span>
+            </a>
+        </section>
+                <section class="section" id="about">
+            <h2 class="section__header flex"><span class="english">About me</span><span class="polish">O mnie</span></h2>
+            <div class="about__row flex" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="400" data-aos-once="true">
+                <img class="about__img" src="images/about.svg" alt="image">
+                <div class="about__text">
+                    <p class="english">Hey, my name is Łukasz Kumela and I am a computer science student from Warsaw. I love creating new things, and in my projects I always strive for transparent,
+                        intuitive and dynamic user interface. I design and program with simplicity in mind, so my code is easy to read and well organized.<br><br> I like to learn and I think that I assimilate knowledge quickly. I speak Polish, English (B2) and Russian (basics)<br><br>
+                        In my free time, I like to spend time with my family. In addition, I like walking, cycling and playing games, videos and board games. I am also a big fan of paper RPGs (Warhammer 2ed, Call of Cthulhu and others ..)</p>
+                    <p class="polish">Hej, nazywam się Łukasz Kumela i jestem studentem informatyki z Warszawy. Uwielbiam tworzyć nowe rzeczy, a w moich projektach zawsze dążę do uzyskania przejrzystego, 
+                        intuicyjnego a zarazem dynamicznego interfesju użytkownika. Projektę i programuję z myślą o prostocie wykonania, tak by mój kod był łatwy do odczytania i dobrze zorganizowany. <br><br>
+                        Lubię się uczyć i myślę, że szybko przyswajam wiedzę.Mówię po polsku, angielsku (B2) i rosyjsku (podstawy)<br><br>W wolnym czasie lubię spędzać czas z moją rodziną. Poza tym chętnie spaceruję, jeżdżę na rowerze i gram w gry, wideo jak i planszowe. Jestem również wielkim fanem papierowych RPG (Warhammer 2ed, Zew Cthulhu oraz inne..) </p>
+                </div>
+            </div>
+                <div class="skills__box code flex" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200" data-aos-once="true" data-aos-delay="300">
+                    <div class="skills__box__title"><span class="english">I code in:</span><span class="polish">Koduję w:</span></div>
+                    <div class="skills__box__details flex">
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/html5b.png" alt="html5 logo">
+                            </div>
+                            <div class="item__name">HTML5</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/css3c.png" alt="css logo">
+                            </div>   
+                            <div class="item__name">CSS</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/js5.png" alt="javascript logo">
+                            </div>
+                            <div class="item__name">JavaScript</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/php.png" alt="react logo">
+                            </div>
+                            <div class="item__name">PHP</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/python.png" alt="react logo">
+                            </div>
+                            <div class="item__name">Python</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/CShqrp.png" alt="react logo">
+                            </div>
+                            <div class="item__name">C#</div>
+                        </div>
+                        <div class="details__item flex">
+                            <div class="item__container flex">
+                                <img class="item__img" src="images/SQL.png" alt="react logo">
+                            </div>
+                            <div class="item__name">MySQL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <section class="section projects" id="projects">
+            <h2 class="section__header"><span class="english">Projects</span><span class="polish">Projekty</span></h2>
+            <h3 class="section__subheader" ><span class="english">Below are some of my favourite projects. </span><span class="polish">Oto kilka moich ulubionych projektów</span></h3>
+            <div class="projects__container flex" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200" data-aos-once="true">
+                <div class="projects__box projects__box--left flex">
+                    <a class="flex" href="https://github.com/lukaszkumela/ATM" rel="noopener" target="_blank"><img class="projects__img" src="images/brain.png" alt="monitor screen" style="height: 400px;"></a>
+                </div>
+                <div class="projects__box projects__box--right flex">
+                    <h3 class="projects__title english">Memory game</h3>
+                    <h3 class="projects__title polish">Gra pamięciowa</h3>
+                    <p class="projects__description english">
+                        My take on the classic tiles memory game. This one has a timer built in, so you have to be fast! Three levels of difficulty and three different tilesets. Music and sound. Victory screen with points and a star rating. Game made with free assets found online. Created with HTML, CSS and Javascript                        <br><br>                        
+                        </p>
+                    <p class="projects__description polish">Moja wersja klasycznej gry pamięciowej. Posiada wbudowany licznik czasu, więc musisz być szybki! 3 poziomy trudności, 3 różne zestawy obrazków. Dźwięk i muzyka. Ekran końcowy z ilością punktów i uzyskanymi gwiazdkami. Gra wykonana z pełni darmowych zasobów znalezionych w sieci. Napisana w HTML, CSS i Javascript.</p>
+                    <div class="project__buttons flex">
+                        <a href="https://github.com/lukaszkumela/Memory-game" rel="noopener" target="_blank" class="projects__button flex">Github</a>
+                        <a href="https://lukaszkumela.github.io/Memory-game/" rel="noopener" target="_blank" class="projects__button flex">Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__container flex" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="400" data-aos-once="true">
+                <div class="projects__box projects__box--left flex">
+                    <a class="flex" href="https://lukaszkumela.github.io/BlackJack/" rel="noopener" target="_blank"><img class="projects__img" src="images/Blackjack.png" alt="monitor screen" style="height: 400px;"></a>
+                </div>
+                <div class="projects__box projects__box--right flex">
+                    <h3 class="projects__title english">Blackjack</h3>
+                    <h3 class="projects__title polish">Blackjack</h3>
+                    <p class="projects__description english">Simple blackjack computer game for practicing simple JS functions. Simple and clean design with a built-in wins, draws and losses counter. Written in HTML, CSS and JS</p>
+                    <p class="projects__description polish">Prosta gra komputerowa w blackjacka przeznaczona do ćwiczenia prostych funkcji JS. Prosty i przejrzysty projekt z wbudowanym licznikiem wygranych, remisów i porażek. Napisana w HTML, CSS oraz JS</p>
+                    <div class="project__buttons flex">
+                        <a href="https://lukaszkumela.github.io/BlackJack/" rel="noopener" target="_blank" class="projects__button flex">Website</a>
+                        <a href="https://github.com/lukaszkumela/BlackJack" rel="noopener" target="_blank" class="projects__button flex">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__container flex" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200" data-aos-once="true">
+                <div class="projects__box projects__box--left flex">
+                    <a class="flex" href="https://github.com/lukaszkumela/RPG_Game" rel="noopener" target="_blank"><img class="projects__img" src="images/RPG.png" alt="monitor screen" style="height: 400px;"></a>
+                </div>
+                <div class="projects__box projects__box--right flex">
+                    <h3 class="projects__title english">RPG game</h3>
+                    <h3 class="projects__title polish">Gra RPG</h3>
+                    <p class="projects__description english">
+                        A text-based game that is based on combat. We choose the class and number of warriors and we fight a battle with a horde of enemies. There are many items and spells in the game. A game written in Python.</p>
+                    <p class="projects__description polish">Gra textowa, która opiera się na walce. Wybieramy klasę oraz ilość wojowników i tocczymy bitwę z hordą przeciwników. W grze mamy do dyspozycji wiele przedmiotów jak i zaklęć. Gra napisana w Pythonie. </p>
+                    <div class="project__buttons flex">
+                        <a href="https://github.com/lukaszkumela/RPG_Game" target="_blank" class="projects__button flex">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__container flex" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="600" data-aos-offset="200" data-aos-once="true">
+                <div class="projects__box projects__box--left flex">
+                    <a class="flex" href="https://github.com/lukaszkumela/ATM" rel="noopener" target="_blank"><img class="projects__img" src="images/ATM.png" alt="monitor screen" style="height: 400px;"></a>
+                </div>
+                <div class="projects__box projects__box--right flex">
+                    <h3 class="projects__title english">ATM</h3>
+                    <h3 class="projects__title polish">Bankomat</h3>
+                    <p class="projects__description english">
+                        An application that imitates an ATM. It has the ability to withdraw and deposit money, check the balance and change the PIN. The application also offers to add a new user to the bank *.
+                        <br><br>                        
+                        * Adding a user does not currently work</p>
+                    <p class="projects__description polish">Aplikacja imitująca bankomat. Posiada możliwości wypłacania jak i wpłacania pieniędzy, sprawdzenia salda oraz zmiany PINu. Aplikacja oferuje również dodanie nowego użytkownia do banku*.
+                        <br><br>
+                        * Dodawnanie użytkowinka aktualnie nie działa.</p>
+                    <div class="project__buttons flex">
+                        <a href="https://github.com/lukaszkumela/ATM" rel="noopener" target="_blank" class="projects__button flex">Github</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer class="footer flex">
+            <div class="footer__row flex">
+                <a class="footer__link" href="https://github.com/lukaszkumela" rel="noopener" target="_blank">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2562 29.2313C11.0062 29.3625 11.2875 28.9125 11.2875 28.5187C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8312 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4813 24.0188 11.3438 23.625C11.475 22.65 11.8687 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2312 7.0125 10.1812C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1812C24.0188 11.2312 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3938C18.7688 26.4 18.75 28.0125 18.75 28.5187C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C25.7063 27.2437 30 21.6187 30 15C30 6.7125 23.2875 0 15 0Z" fill="white"/>
+                    </svg>
+                </a>
+                <a class="footer__link" href="mailto:l.kumela@outlook.com" rel="noopener" target="_blank">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path d="M15 2.52637C21.8925 2.52637 27.5 8.13387 27.5 15.0264C27.5 21.9189 21.8925 27.5264 15 27.5264C8.1075 27.5264 2.5 21.9189 2.5 15.0264C2.5 8.13387 8.1075 2.52637 15 2.52637ZM15 0.0263672C6.71625 0.0263672 0 6.74262 0 15.0264C0 23.3101 6.71625 30.0264 15 30.0264C23.2838 30.0264 30 23.3101 30 15.0264C30 6.74262 23.2838 0.0263672 15 0.0263672ZM15 15.7139L7.51 10.0014H22.4887L15 15.7139ZM15 17.3239L7.5 11.5376V20.0014H22.5V11.5376L15 17.3239Z" fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                            <rect width="30" height="30" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer__row flex">
+                <p class="footer__text">Copyright &copy; Łukasz Kumela. All rights reserved</p>
+            </div>                                                              
+        </footer>
+    <script src="https://kit.fontawesome.com/906f0b3815.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({disable: "mobile"});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
